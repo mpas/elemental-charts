@@ -1,0 +1,14 @@
+annotations:
+  catalog.cattle.io/certified: rancher
+  catalog.cattle.io/display-name: Elemental
+  catalog.cattle.io/experimental: "true"
+  catalog.cattle.io/namespace: cattle-elemental-system
+  catalog.cattle.io/os: linux
+  catalog.cattle.io/provides-gvr: elemental.cattle.io/v1beta1
+  catalog.cattle.io/release-name: elemental-operator
+apiVersion: v2
+appVersion: 1.2.5
+description: Rancher Elemental Operator
+icon: https://raw.githubusercontent.com/rancher/elemental/main/logo/icon-elemental.svg
+name: elemental-operator
+version: 1.2.5
